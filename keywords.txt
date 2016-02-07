@@ -1,0 +1,6 @@
+Kelvin2RGB	KEYWORD1
+Temperature	KEYWORD2
+Brightness	KEYWORD2
+Red	KEYWORD2
+Green	KEYWORD2
+Blue	KEYWORD2
