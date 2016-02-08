@@ -1,5 +1,5 @@
 /*
-  Kelvin.h - Library for converting kelvin to RGB.
+  Kelvin2RGB.h - Library for converting kelvin to RGB.
   Created by Tim van Wijk.
   Released into the public domain.
 */
