@@ -8,6 +8,11 @@ Kelvin2RGB::Kelvin2RGB(unsigned int temperature, int brightness)
 	Red = map(Brightness, 0, 100, 0, calculateRed());
 	Green = map(Brightness, 0, 100, 0, calculateGreen());
 	Blue = map(Brightness, 0, 100, 0, calculateBlue());
+	Color = Red;
+	Color = Color<<8;
+	Color = Color|Green;
+	Color = Color<<8;
+	Color = Color|Blue;
 }
 
 byte Kelvin2RGB::calculateRed(){

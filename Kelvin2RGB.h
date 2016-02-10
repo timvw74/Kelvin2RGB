@@ -17,6 +17,7 @@ class Kelvin2RGB
     byte Red;
     byte Green;
     byte Blue;
+    unsigned long Color;
   private:
     unsigned int _temperature;
     int _brightness;
